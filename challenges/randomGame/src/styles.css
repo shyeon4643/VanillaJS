@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+.guessNum {
+  width: 40px;
+}
+
+.result2 {
+  font-size: 18px;
+  font-weight: bold;
+}

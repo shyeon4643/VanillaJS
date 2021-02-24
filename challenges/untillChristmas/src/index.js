@@ -1,4 +1,4 @@
-
+import "./styles.css";
 
 const clockContainer = document.querySelector(".clock");
 const clockTitle = clockContainer.querySelector("h2");

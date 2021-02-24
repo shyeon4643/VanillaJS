@@ -1,4 +1,5 @@
-// import "./styles.css";
+// <⚠️ DONT DELETE THIS ⚠️>
+import "./styles.css";
 // <⚠️ /DONT DELETE THIS ⚠️>
 const select = document.querySelector("select");
 
@@ -9,12 +10,12 @@ function saveCountry() {
 
 select.addEventListener("change", saveCountry);
 
-function showing(){
-    const country = localStorage.getItem("country");
-    if(country !== null){
-        select.setAttribute("value", country);
-        select.value=country;
-    }
+function showing() {
+  const country = localStorage.getItem("country");
+  if (country !== null) {
+    select.setAttribute("value", country);
+    select.value = country;
+  }
 }
 
 showing();
